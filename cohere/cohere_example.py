@@ -2,7 +2,7 @@ import os
 import cohere
 
 # Initialize client
-co = cohere.Client(os.getenv("COHERE_API_KEY"))
+co = cohere.Client(os.getenv("CO_API_KEY"))
 
 def query_cohere(prompt):
     try:
